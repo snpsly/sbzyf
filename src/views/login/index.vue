@@ -20,6 +20,9 @@ const loginFormRef = ref<FormInstance | null>(null)
 const loading = ref(false)
 /** 验证码图片 URL */
 const codeUrl = ref("")
+const a = ref("666")
+console.log(a)
+
 /** 登录表单数据 */
 const loginFormData: LoginRequestData = reactive({
   username: "admin",
