@@ -22,6 +22,7 @@ const loading = ref(false)
 const codeUrl = ref("")
 const a = ref("666")
 console.log(a)
+console.log(3333)
 
 /** 登录表单数据 */
 const loginFormData: LoginRequestData = reactive({
