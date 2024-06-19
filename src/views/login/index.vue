@@ -20,18 +20,14 @@ const loginFormRef = ref<FormInstance | null>(null)
 const loading = ref(false)
 /** 验证码图片 URL */
 const codeUrl = ref("")
-const a = ref("666")
-console.log(a)
-console.log(3333)
-console.log(44444)
-console.log(55555)
-
 /** 登录表单数据 */
 const loginFormData: LoginRequestData = reactive({
   username: "admin",
   password: "12345678",
   code: ""
 })
+console.log("6666666666666666666666666")
+
 /** 登录表单校验规则 */
 const loginFormRules: FormRules = {
   username: [{ required: true, message: "请输入用户名", trigger: "blur" }],
